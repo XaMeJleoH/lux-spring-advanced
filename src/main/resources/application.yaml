@@ -5,8 +5,8 @@ spring:
   banner:
     image:
       location: "banner.gif"
-      width: 76
-      height: 20
+      width: "60"
+      height: "60"
 
 insurer:
   check: true
