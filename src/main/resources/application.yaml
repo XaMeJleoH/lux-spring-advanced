@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+spring:
+  banner:
+    image:
+      location: "banner.gif"
+      width: "60"
+      height: "60"
+
+insurer:
+  check: true
+  check-types:
+    - enabled: true
+      type: "auto"
+      description: "Автомобиль"
+    - enabled: false
+      type: "insured"
+      description: "Застрахованные"
