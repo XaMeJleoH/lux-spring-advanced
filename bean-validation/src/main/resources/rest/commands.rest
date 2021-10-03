@@ -1,0 +1,68 @@
+###
+GET http://localhost:8081/persons
+
+###
+GET http://localhost:8081/persons/0
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Alice Wells",
+  "country": "Australia",
+  "salary": "4000.00"
+}
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Alice Wells",
+  "salary": "4000.00"
+}
+
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Alice Wells",
+  "country": "Australia"
+}
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+Accept-Language: eng;
+
+{
+  "name": "Bart Simpson",
+  "country": "Australia",
+  "salary": "4000.00",
+  "age":11
+}
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Bart Simpson",
+  "country": "Australia",
+  "salary": "4000.00",
+  "age":11
+}
+
+###
+POST http://localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Bart Simpson",
+  "country": "Australia",
+  "salary": "4000.00",
+  "age":18
+}

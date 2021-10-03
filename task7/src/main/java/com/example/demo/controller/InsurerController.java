@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InsurerController {
     private final InsurerCheckService insurerCheckService;
 
-    @GetMapping(path = "/checkInsurer", produces = {MediaType.APPLICATION_JSON_VALUE})
+    @GetMapping(path = "/checkInsurer")
     public void getCountryDictionary() {
         insurerCheckService.checkInsurer();
     }
